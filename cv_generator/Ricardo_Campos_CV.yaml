@@ -1,0 +1,283 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.6/schema.json
+cv:
+  name: Ricardo Campos
+  headline: Full stack Engineer | Java Specialist | Cloud | Observability
+  location: Joinville, Brazil
+  email: ricardompcampos@gmail.com
+  photo: photo.jpg
+  phone: +55 47 99169-9982
+  social_networks:
+    - network: LinkedIn
+      username: ricardompcampos
+    - network: GitHub
+      username: RMCampos
+
+  sections:
+    summary:
+      - "Full-stack software engineer with 10+ years of experience, specializing in backend development and RESTful APIs since 2018. Deep expertise in Java, Spring Boot, GraalVM, and SQL databases, with solid frontend skills in React, Angular, and TypeScript. Passionate about scalable, maintainable systems and clean architecture. Experienced with cloud-native DevOps tools including Docker, Kubernetes, Jenkins, GitHub Actions, Datadog, OpenShift, AWS, and Azure."
+    
+    experience:
+      - company: Accela
+        position: Senior Backend Java Engineer
+        start_date: 2024-10
+        end_date: present
+        location: San Ramon, CA, USA - Remote
+        summary: "Platform and backend developer responsible for building automation tooling, improving developer experience, and maintaining core back-office services. Led automation initiatives using Docker, Kubernetes, and CI/CD pipelines while resolving critical production issues in Java/Spring Boot microservices and legacy EJB applications. Created cross-platform scripts, established deployment patterns for Azure AKS, and drove architectural improvements for system stability. Collaborated across teams providing technical guidance and documentation."
+        highlights:
+          - "Led automation initiatives to streamline development workflows and deployments"
+          - "Diagnosed and resolved critical production bugs in REST/EJB services on WildFly"
+          - "Developed Spring Boot microservices with Apache Camel for async processing"
+          - "Created CI/CD pipelines using GitHub Actions and Jenkins"
+          - "Implemented architectural and performance improvements in legacy Java codebases"
+          - "Provided technical guidance and unblocked teams across the organization"
+          - "Wrote comprehensive documentation including troubleshooting and deployment guides"
+      - company: Encora
+        position: Technical Lead
+        start_date: 2021-08
+        end_date: 2024-10
+        location: Campinas, Brazil - Remote
+        summary: "Led modernization efforts refactoring a legacy Oracle monolith with extensive PL/SQL stored procedures into microservices on RedHat OpenShift. Analyzed complex business logic across thousands of lines of code, collaborated with data teams on schema design, and delivered cloud-native services using Spring Boot and GraalVM. Built React frontends with GIS mapping capabilities. Managed CI/CD pipelines, conducted code reviews, and mentored team members while working in Scrum methodology."
+        highlights:
+          - "Refactored legacy Oracle monolith (PL/SQL packages) into Spring Boot microservices"
+          - "Built cloud-native applications using GraalVM and deployed to RedHat OpenShift"
+          - "Developed React frontends with GIS integration (Leaflet, MapLibre, OpenMaps)"
+          - "Collaborated with data teams on PostgreSQL/Oracle schema design and migration"
+          - "Implemented OAuth2/JWT authentication with Keycloak"
+          - "Managed CI/CD pipelines and deployments using GitHub Actions"
+          - "Led sprint planning, task refinement, and provided technical mentorship"
+          - "Established observability using OpenSearch, Fluent Bit, and AWS Lambdas"
+      - company: Kugel
+        position: Software Engineer
+        start_date: 2013-10
+        end_date: 2021-08
+        location: Joinville, Brazil
+        summary: "Full-stack developer maintaining and evolving a comprehensive ERP system (manufacturing, CRM, billing, inventory, HR). Developed new features, custom requirements, and reports while providing direct customer support and training. Managed compliance with Brazilian government regulations and conducted on-site visits to gather feedback. Built desktop and web applications using Java/Swing and AngularJS, designed reports with Jasper, and deployed solutions through Jenkins and GitLab CI."
+        highlights:
+          - "Developed features and customizations for complete ERP system across multiple domains"
+          - "Provided direct customer support, training, and gathered requirements through regular on-site visits"
+          - "Built desktop applications using Java Swing and web interfaces with AngularJS"
+          - "Designed and integrated reports using Jasper Reports"
+          - "Maintained compliance with annual Brazilian government regulatory changes"
+          - "Developed internal productivity tools on own initiative"
+          - "Deployed solutions and managed CI/CD pipelines using Jenkins and GitLab"
+          - "Collaborated closely with end users to improve system usability and address pain points"
+
+    education:
+      - institution: Senac
+        area: Computer Science
+        degree: Master's Degree
+        start_date: 2023-07
+        end_date: 2024-06
+        location: Joinville, Brazil
+        summary: Cloud computing specialization with focus on distributed systems, containerization, security, and orchestration.
+      - institution: UDESC - State University of Santa Catarina
+        area: Computer Science
+        degree: Master of Technology
+        start_date: 2011-01
+        end_date: 2015-06
+        location: Joinville, Brazil
+        summary: Comprehensive computer science education covering programming, algorithms, databases, and software engineering principles.
+
+    projects:
+      - name: '[TaskNote](https://tasknote.darkroasted.vps-kinghost.net/)'
+        start_date: 2022-01
+        end_date: present
+        location: remote
+        summary: Personal project build with Spring, GraalVM, and React to manage tasks and notes
+        
+      - name: '[Bean Score](https://beanscore.darkroasted.vps-kinghost.net/)'
+        start_date: 2025-03
+        end_date: present
+        location: remote
+        summary: Personal project built with Quarkus, GraalVM, and React to rate coffee shops
+    
+    skills:
+      - label: Programming Languages
+        details: Java, JavaScript, TypeScript, SQL
+      - label: Frameworks & Tools
+        details: Spring Boot, Spring WebFlux, Quarkus, GraalVM, React, Angular, Docker, Apache Camel, Keycloak, FusionAuth
+      - label: Devops & Observability
+        details: Jenkins, GitHub Actions, Kubernetes, Prometheus, Grafana, ELK Stack
+      - label: Cloud Platforms
+        details: AWS, Azure, RedHat OpenShift
+design:
+  theme: classic
+  # page:
+  #   size: us-letter
+  #   top_margin: 0.7in
+  #   bottom_margin: 0.7in
+  #   left_margin: 0.7in
+  #   right_margin: 0.7in
+  #   show_footer: true
+  #   show_top_note: true
+  # colors:
+  #   body: rgb(0, 0, 0)
+  #   name: rgb(0, 79, 144)
+  #   headline: rgb(0, 79, 144)
+  #   connections: rgb(0, 79, 144)
+  #   section_titles: rgb(0, 79, 144)
+  #   links: rgb(0, 79, 144)
+  #   footer: rgb(128, 128, 128)
+  #   top_note: rgb(128, 128, 128)
+  # typography:
+  #   line_spacing: 0.6em
+  #   alignment: justified
+  #   date_and_location_column_alignment: right
+  #   font_family:
+  #     body: Source Sans 3
+  #     name: Source Sans 3
+  #     headline: Source Sans 3
+  #     connections: Source Sans 3
+  #     section_titles: Source Sans 3
+  #   font_size:
+  #     body: 10pt
+  #     name: 30pt
+  #     headline: 10pt
+  #     connections: 10pt
+  #     section_titles: 1.4em
+  #   small_caps:
+  #     name: false
+  #     headline: false
+  #     connections: false
+  #     section_titles: false
+  #   bold:
+  #     name: true
+  #     headline: false
+  #     connections: false
+  #     section_titles: true
+  # links:
+  #   underline: false
+  #   show_external_link_icon: false
+  # header:
+  #   alignment: center
+  #   photo_width: 3.5cm
+  #   photo_position: left
+  #   photo_space_left: 0.4cm
+  #   photo_space_right: 0.4cm
+  #   space_below_name: 0.7cm
+  #   space_below_headline: 0.7cm
+  #   space_below_connections: 0.7cm
+  #   connections:
+  #     phone_number_format: national
+  #     hyperlink: true
+  #     show_icons: true
+  #     display_urls_instead_of_usernames: false
+  #     separator: ''
+  #     space_between_connections: 0.5cm
+  # section_titles:
+  #   type: with_partial_line
+  #   line_thickness: 0.5pt
+  #   space_above: 0.5cm
+  #   space_below: 0.3cm
+  # sections:
+  #   allow_page_break: true
+  #   space_between_regular_entries: 1.2em
+  #   space_between_text_based_entries: 0.3em
+  #   show_time_spans_in:
+  #     - experience
+  # entries:
+  #   date_and_location_width: 4.15cm
+  #   side_space: 0.2cm
+  #   space_between_columns: 0.1cm
+  #   allow_page_break: false
+  #   short_second_row: true
+  #   summary:
+  #     space_above: 0cm
+  #     space_left: 0cm
+  #   highlights:
+  #     bullet: •
+  #     nested_bullet: •
+  #     space_left: 0.15cm
+  #     space_above: 0cm
+  #     space_between_items: 0cm
+  #     space_between_bullet_and_text: 0.5em
+  # templates:
+  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
+  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
+  #   single_date: MONTH_ABBREVIATION YEAR
+  #   date_range: START_DATE – END_DATE
+  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
+  #   one_line_entry:
+  #     main_column: '**LABEL:** DETAILS'
+  #   education_entry:
+  #     main_column: |-
+  #       **INSTITUTION**, AREA
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     degree_column: '**DEGREE**'
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   normal_entry:
+  #     main_column: |-
+  #       **NAME**
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   experience_entry:
+  #     main_column: |-
+  #       **COMPANY**, POSITION
+  #       SUMMARY
+  #       HIGHLIGHTS
+  #     date_and_location_column: |-
+  #       LOCATION
+  #       DATE
+  #   publication_entry:
+  #     main_column: |-
+  #       **TITLE**
+  #       SUMMARY
+  #       AUTHORS
+  #       URL (JOURNAL)
+  #     date_and_location_column: DATE
+locale:
+  language: english
+  # last_updated: Last updated in
+  # month: month
+  # months: months
+  # year: year
+  # years: years
+  # present: present
+  # month_abbreviations:
+  #   - Jan
+  #   - Feb
+  #   - Mar
+  #   - Apr
+  #   - May
+  #   - June
+  #   - July
+  #   - Aug
+  #   - Sept
+  #   - Oct
+  #   - Nov
+  #   - Dec
+  # month_names:
+  #   - January
+  #   - February
+  #   - March
+  #   - April
+  #   - May
+  #   - June
+  #   - July
+  #   - August
+  #   - September
+  #   - October
+  #   - November
+  #   - December
+settings:
+  current_date: '2026-02-13'
+  render_command:
+    design:
+    locale:
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
+    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: false
+    dont_generate_html: false
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: false
+  bold_keywords: []
