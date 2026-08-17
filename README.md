@@ -4,7 +4,7 @@ A static HTML resume website with dual-language support (English and Brazilian P
 
 # Live page
 
-Please see it here: https://ricardo-campos.lightroasted.vps-kinghost.net/
+Please see it here: https://rmcampos.github.io/portfolio-and-cv/
 
 ## Overview
 
@@ -12,10 +12,6 @@ This repository contains:
 - **Web Resume**: A responsive, single-page resume website built with Bootstrap 4.5.3
 - **CV Generator**: Docker-based PDF generation using [RenderCV](https://github.com/rendercv/rendercv)
 - **Certificates**: Professional certifications and course completions
-
-## Live Demo
-
-Visit the live resume at: [https://ricardocampos.blog](https://ricardocampos.blog) (or your hosted URL)
 
 ## Project Structure
 
